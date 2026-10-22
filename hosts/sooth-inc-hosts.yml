@@ -1,0 +1,53 @@
+generated: '2026-10-22'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 4
+  own: 2
+  other_domain: 2
+  platform: 0
+  roles:
+  - api
+  - other
+  - website
+hosts:
+- host: api.sooth.inc
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: sooth.inc
+  role: api
+  relation: own
+- host: api.soothlabs.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: soothlabs.com
+  role: api
+  relation: other-domain
+- host: sooth.inc
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Website
+  serves: []
+  registrable_domain: sooth.inc
+  role: website
+  relation: own
+- host: soothlabs.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: soothlabs.com
+  role: other
+  relation: other-domain

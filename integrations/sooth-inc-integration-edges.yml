@@ -1,0 +1,20 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/sooth-inc/integrations
+- https://zapier.com/apps/sooth/integrations
+- https://n8n.io/integrations/sooth-inc/
+- https://n8n.io/integrations/sooth/
+- https://composio.dev/toolkits/sooth-inc
+- https://monid.ai/tools/sooth-inc
+checked:
+- https://composio.dev/toolkits/sooth-inc
+- https://monid.ai/tools/sooth-inc
+- https://n8n.io/integrations/sooth-inc/
+- https://n8n.io/integrations/sooth/
+- https://zapier.com/apps/sooth-inc/integrations
+- https://zapier.com/apps/sooth/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
